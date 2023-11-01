@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo.webp" alt="Kuma UI logo" width="300" />
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo-light.webp">
+  <img alt="Kuma UI logo" src="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo.webp">
+</picture>
 </div>
 
 <h1 align='center'>Ultra Fast, Zero Runtime, Headless UI Components</h1>
@@ -17,9 +20,7 @@
   <br />
 </div>
 
-
 https://github.com/kuma-ui/kuma-ui/assets/59927325/c3f7da97-dbff-49bb-a578-1cb9134b8dd2
-
 
 ## 🐻‍❄️ Features
 
@@ -43,7 +44,6 @@ npm install @kuma-ui/core
 
 For installation instructions and more detailed information, please visit our [documentation](https://www.kuma-ui.com/docs/install). Be sure to check out our guide for setting up Kuma UI with your specific framework (Next.js or Vite).
 
-
 ## 🔫 Example
 
 ```tsx
@@ -66,7 +66,7 @@ function App() {
         <Text as="p" fontSize={24}>
           Headless UI Component Library
         </Text>
-        <Button variant='primary'>Getting Started</Button>
+        <Button variant="primary">Getting Started</Button>
       </Flex>
     </Box>
   );
