@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo-dark.webp">
   <img alt="Kuma UI logo" src="https://raw.githubusercontent.com/kuma-ui/kuma-ui/main/media/logo.webp">
 </picture>
 </div>
